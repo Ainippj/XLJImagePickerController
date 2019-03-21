@@ -1,0 +1,41 @@
+{
+  "name": "XLJImagePickerController",
+  "version": "1.0.0",
+  "summary": "图片选择器",
+  "description": "XLJImagePickerController",
+  "homepage": "https://github.com/Ainippj/XLJImagePickerController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuelijun": "1342389838@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/Ainippj/XLJImagePickerController.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "XLJImagePickerController/Headers/*.h",
+  "resources": "XLJImagePickerController/*.{png,bundle}",
+  "resource_bundles": {
+    "XibReSource": [
+      "XLJImagePickerController/*.xib"
+    ]
+  },
+  "frameworks": "MobileCoreServices",
+  "requires_arc": true,
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "UIKit",
+      "source_files": "XLJImagePickerController/*.{h,m}"
+    }
+  ]
+}

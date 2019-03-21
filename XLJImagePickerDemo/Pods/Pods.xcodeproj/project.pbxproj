@@ -1,0 +1,922 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DD83794E75ACF2A848594D191A36E1 /* VIdeoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA186378C3DD47C2F7334F704856EA4 /* VIdeoCell.m */; };
+		010DFDEF7FBB9BAF850964421208543F /* XNOAuthorController.h in Headers */ = {isa = PBXBuildFile; fileRef = 647944A2B46C4B84ABE5B73A967F7879 /* XNOAuthorController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0572C81E36D9E3D3F56C92BE44724664 /* XLJVideoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245043263A91E4AACF88A3AFD2540B92 /* XLJVideoPickerController.m */; };
+		0CC76CD7261341744F1B75FE45D07AFC /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDCCCFFEB4D264745CCCD087A0D3E49 /* PhotoCell.m */; };
+		12926B21D5B8B3C476049C3726213D24 /* VIdeoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A1E638925B4E725BD466C3300393192 /* VIdeoCell.xib */; };
+		1663F7C0E3CC1C8FBE50F24111628752 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 078546647169AE7446D9884D6D3EE443 /* MBProgressHUD-dummy.m */; };
+		17B6EECA9A3BFCF188743777595FFFCA /* PreViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 371191069F1388A7A7DA35BD9174AB84 /* PreViewCell.m */; };
+		1821C13117ABA5AD7C7980EA798380D1 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AE627BC6438DD46A41E2EE60F6BA01 /* PhotoCell.xib */; };
+		27B9426E06AC685B894DDD1434A3A667 /* XLJAssetHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F61E71D5B96C55B2D04FE4E851ACA3DF /* XLJAssetHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E0C317D6C282DF19964FFA4248DA853 /* PreThumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9ACF4DE532B0684678EEDC8BD73E90 /* PreThumCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3654CBBBA91E3491DA60FFA3DC26F3F7 /* XLJImagePickGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105678A5915BA9FB1AAB2537B0C3B0AE /* XLJImagePickGroupController.m */; };
+		3D4A63ADA07319DBD4878623735E5DB1 /* PhotoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2497944984DD80979C3FB3722D0A1027 /* PhotoCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40EEC0416E4CC4CB0080F7E86C7B07A6 /* PhotoBrowserController.h in Headers */ = {isa = PBXBuildFile; fileRef = B67EBB83F45D35F275EEB0BAFB8DEE07 /* PhotoBrowserController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F30A8A2337E3C97E5456F0FC91D4C9A /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0532742D5CA6C7F106A32A0C77C4DB7 /* CollectionCell.xib */; };
+		50F63459E414464BF5E88B1171B4F456 /* PreViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE3EEB18FB63A81C6AB2CFD4945D29F /* PreViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FB2FF1355061B11C4788D65574772FE /* XLJImagePickController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78399B25F22320F1C7B27FE22A21967B /* XLJImagePickController.m */; };
+		6902794CA8395D32432BA5C7D98113B3 /* Pods-XLJImagePickerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC07AE3101AD55C9B08F8F4BE3FB029C /* Pods-XLJImagePickerDemo-dummy.m */; };
+		6A0844012063F720303161B59FFF1669 /* XLJAssetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D09841A9EC34A9E4238BBB3FE87DE7D0 /* XLJAssetHelper.m */; };
+		6A08C95E5E7D1428D7292A05CB778C84 /* XLJImagePickController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CB2893A8EBAB10D7E4AFD3799A70A4 /* XLJImagePickController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C2F7128373DDA1E44EF6A6E4E990A42 /* PreThumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141AA3781E6E7D5163392957C6B40DDD /* PreThumCell.m */; };
+		74DA2E10F7942FD70359F0591525B30D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB69FCA0C39E6D223D660F7B5240F19 /* MBProgressHUD.m */; };
+		86821BEB582903C9CC802873010D49F6 /* XLJVideoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCF45CE3BEB047A7286D64D4CCCF256 /* XLJVideoPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A62FED7F5285636C462EBF84725E84A /* BrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BABAED41D2E1DC10204D26B3DE4F7E02 /* BrowserCell.m */; };
+		9B4C8252554691FB73CE74F8682181E7 /* XNOAuthorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15862265D5DE0D580809FAA8FA9FBE97 /* XNOAuthorController.m */; };
+		9D5703C8D187A63D6C2192A3913CAD09 /* XLJVideoPreViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4D4302547EE4B86037153262F401D0 /* XLJVideoPreViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2F6095C50A40D3AAA9597B07E51FE6B /* PhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2EECE19979814E19C64614D6C088 /* PhotoBrowserController.m */; };
+		A8B07EC04FE288F323353EA24A5B4DC9 /* BrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC624AF8584A5E5D7D5A78B4246B133 /* BrowserCell.xib */; };
+		AE04EF372F4501F1120021CAF6F6844D /* VIdeoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F54A41F19792BA2E4BF542860CB1C0CE /* VIdeoCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE2142FAD720B85803AD778CD7D0D357 /* XLJImagePickHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C79697E5F8C31208CCDCD3A93A2C2E52 /* XLJImagePickHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B20994F712F2B6A540216D3FD2BF612D /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7CBAA80700DF4FC98F1110B1549283 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA40891671ED8105417C62ABEEB48CBC /* XLJImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED867C965DA3D646252087A3D43C753E /* XLJImagePickerController-dummy.m */; };
+		CBFFBD32BB9DAA0105CE17262ECF1488 /* CollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E1C67C7D8ECE7637BF36A3DD618279 /* CollectionCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D530257BEF0225C7DFF3F4DD8FA06689 /* XNOAuthorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4068102C2DA332F1C99442408ED2B3 /* XNOAuthorController.xib */; };
+		DA69B54E07EDF360E5D070974E025008 /* XLJImagePickGroupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1146C92F7B980EC0D59A1C7520FB4514 /* XLJImagePickGroupController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA9D3E24E96CCCAA9886AB8023386537 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA1806DE87981BA9189361CF7EC351A /* CollectionCell.m */; };
+		DAC8998A1D9719804F295027F3B3D55B /* BrowserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 03E532116C53847065E5C7CFF2DE1BD5 /* BrowserCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E994FA439D126DF06BED7F17B242E61E /* XLJVideoPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC976B88A99246BDDB1AA52859CB681 /* XLJVideoPreViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01024CB66B3563AB9C8D6F05C62A53FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC98E889677399F42C51CAFE5D2502D;
+			remoteInfo = XLJImagePickerController;
+		};
+		04AD8AFFDBA89C8C1B50F499EA5D9EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA75A0EA7CA522EA2217F697168D94DF;
+			remoteInfo = "XLJImagePickerController-XibReSource";
+		};
+		81A475E73D980100648E863BE0E88CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C57AC15136E9697588CFACE7EB6EE06;
+			remoteInfo = MBProgressHUD;
+		};
+		BF4E03CB4EAE9466BA3B1B65441E15F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C57AC15136E9697588CFACE7EB6EE06;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CB2893A8EBAB10D7E4AFD3799A70A4 /* XLJImagePickController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLJImagePickController.h; path = XLJImagePickerController/XLJImagePickController.h; sourceTree = "<group>"; };
+		03E532116C53847065E5C7CFF2DE1BD5 /* BrowserCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BrowserCell.h; path = XLJImagePickerController/BrowserCell.h; sourceTree = "<group>"; };
+		044669A0B7A90DCF00351FE25782EEB4 /* Pods-XLJImagePickerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XLJImagePickerDemo-resources.sh"; sourceTree = "<group>"; };
+		078546647169AE7446D9884D6D3EE443 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		105678A5915BA9FB1AAB2537B0C3B0AE /* XLJImagePickGroupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLJImagePickGroupController.m; path = XLJImagePickerController/XLJImagePickGroupController.m; sourceTree = "<group>"; };
+		1146C92F7B980EC0D59A1C7520FB4514 /* XLJImagePickGroupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLJImagePickGroupController.h; path = XLJImagePickerController/XLJImagePickGroupController.h; sourceTree = "<group>"; };
+		141AA3781E6E7D5163392957C6B40DDD /* PreThumCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PreThumCell.m; path = XLJImagePickerController/PreThumCell.m; sourceTree = "<group>"; };
+		15862265D5DE0D580809FAA8FA9FBE97 /* XNOAuthorController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XNOAuthorController.m; path = XLJImagePickerController/XNOAuthorController.m; sourceTree = "<group>"; };
+		1B4D4302547EE4B86037153262F401D0 /* XLJVideoPreViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLJVideoPreViewController.h; path = XLJImagePickerController/XLJVideoPreViewController.h; sourceTree = "<group>"; };
+		1BE44281F5B85F9E83125057D698E97D /* Pods-XLJImagePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XLJImagePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1EA186378C3DD47C2F7334F704856EA4 /* VIdeoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIdeoCell.m; path = XLJImagePickerController/VIdeoCell.m; sourceTree = "<group>"; };
+		1FA1806DE87981BA9189361CF7EC351A /* CollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CollectionCell.m; path = XLJImagePickerController/CollectionCell.m; sourceTree = "<group>"; };
+		235F43D18BF66C06C3E95AACCBB9D39D /* Resource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Resource.bundle; path = XLJImagePickerController/Resource.bundle; sourceTree = "<group>"; };
+		245043263A91E4AACF88A3AFD2540B92 /* XLJVideoPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLJVideoPickerController.m; path = XLJImagePickerController/XLJVideoPickerController.m; sourceTree = "<group>"; };
+		2497944984DD80979C3FB3722D0A1027 /* PhotoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhotoCell.h; path = XLJImagePickerController/PhotoCell.h; sourceTree = "<group>"; };
+		24E1C67C7D8ECE7637BF36A3DD618279 /* CollectionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CollectionCell.h; path = XLJImagePickerController/CollectionCell.h; sourceTree = "<group>"; };
+		2A1E638925B4E725BD466C3300393192 /* VIdeoCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VIdeoCell.xib; path = XLJImagePickerController/VIdeoCell.xib; sourceTree = "<group>"; };
+		2AC976B88A99246BDDB1AA52859CB681 /* XLJVideoPreViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLJVideoPreViewController.m; path = XLJImagePickerController/XLJVideoPreViewController.m; sourceTree = "<group>"; };
+		3435098776C89B4C85A0B1CE697896DA /* XLJImagePickerController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XLJImagePickerController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		352B92B2D4EBD7C413434250057C3CB0 /* libXLJImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXLJImagePickerController.a; path = libXLJImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		371191069F1388A7A7DA35BD9174AB84 /* PreViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PreViewCell.m; path = XLJImagePickerController/PreViewCell.m; sourceTree = "<group>"; };
+		4C48D5BB1169925C6CE623D35D020EE3 /* XLJImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLJImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		5D9ACF4DE532B0684678EEDC8BD73E90 /* PreThumCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PreThumCell.h; path = XLJImagePickerController/PreThumCell.h; sourceTree = "<group>"; };
+		647944A2B46C4B84ABE5B73A967F7879 /* XNOAuthorController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XNOAuthorController.h; path = XLJImagePickerController/XNOAuthorController.h; sourceTree = "<group>"; };
+		674BF467B00185AAD51158ED97F69B2F /* Pods-XLJImagePickerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XLJImagePickerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		78399B25F22320F1C7B27FE22A21967B /* XLJImagePickController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLJImagePickController.m; path = XLJImagePickerController/XLJImagePickController.m; sourceTree = "<group>"; };
+		88DD67F3E1CB7C31D8CFF0DBEA8CDF89 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFECA302A79110A706E93269DF79191 /* Pods-XLJImagePickerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XLJImagePickerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D4068102C2DA332F1C99442408ED2B3 /* XNOAuthorController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = XNOAuthorController.xib; path = XLJImagePickerController/XNOAuthorController.xib; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FBC2EECE19979814E19C64614D6C088 /* PhotoBrowserController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PhotoBrowserController.m; path = XLJImagePickerController/PhotoBrowserController.m; sourceTree = "<group>"; };
+		A1474493A989C94AC4A31788108A7FAA /* Pods-XLJImagePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XLJImagePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC08C96286A6710242D74EB3CBCBAE7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		B0532742D5CA6C7F106A32A0C77C4DB7 /* CollectionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CollectionCell.xib; path = XLJImagePickerController/CollectionCell.xib; sourceTree = "<group>"; };
+		B67EBB83F45D35F275EEB0BAFB8DEE07 /* PhotoBrowserController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhotoBrowserController.h; path = XLJImagePickerController/PhotoBrowserController.h; sourceTree = "<group>"; };
+		BABAED41D2E1DC10204D26B3DE4F7E02 /* BrowserCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BrowserCell.m; path = XLJImagePickerController/BrowserCell.m; sourceTree = "<group>"; };
+		BDAA04959D11FC36CAB9207169F4AACF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BFDCCCFFEB4D264745CCCD087A0D3E49 /* PhotoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PhotoCell.m; path = XLJImagePickerController/PhotoCell.m; sourceTree = "<group>"; };
+		C79697E5F8C31208CCDCD3A93A2C2E52 /* XLJImagePickHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLJImagePickHeader.h; path = XLJImagePickerController/Headers/XLJImagePickHeader.h; sourceTree = "<group>"; };
+		CB71A3B92C53C2A34A1C056D1ECFB88B /* XLJImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLJImagePickerController.xcconfig; sourceTree = "<group>"; };
+		CC07AE3101AD55C9B08F8F4BE3FB029C /* Pods-XLJImagePickerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XLJImagePickerDemo-dummy.m"; sourceTree = "<group>"; };
+		CC7CBAA80700DF4FC98F1110B1549283 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CDB69FCA0C39E6D223D660F7B5240F19 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CDE3EEB18FB63A81C6AB2CFD4945D29F /* PreViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PreViewCell.h; path = XLJImagePickerController/PreViewCell.h; sourceTree = "<group>"; };
+		D09841A9EC34A9E4238BBB3FE87DE7D0 /* XLJAssetHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLJAssetHelper.m; path = XLJImagePickerController/XLJAssetHelper.m; sourceTree = "<group>"; };
+		D527159C8BE550F93FFBED8A35A956B8 /* ResourceBundle-XibReSource-XLJImagePickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XibReSource-XLJImagePickerController-Info.plist"; sourceTree = "<group>"; };
+		DCC624AF8584A5E5D7D5A78B4246B133 /* BrowserCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BrowserCell.xib; path = XLJImagePickerController/BrowserCell.xib; sourceTree = "<group>"; };
+		E6F0E0B5A7FB742FB05960A7172D5118 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E772E3836FC21BFACEE0D936005D19DD /* XibReSource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XibReSource.bundle; path = "XLJImagePickerController-XibReSource.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED867C965DA3D646252087A3D43C753E /* XLJImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLJImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		F27C57B8317B2B04F19E4C526DF33467 /* libPods-XLJImagePickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XLJImagePickerDemo.a"; path = "libPods-XLJImagePickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54A41F19792BA2E4BF542860CB1C0CE /* VIdeoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIdeoCell.h; path = XLJImagePickerController/VIdeoCell.h; sourceTree = "<group>"; };
+		F5AE627BC6438DD46A41E2EE60F6BA01 /* PhotoCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PhotoCell.xib; path = XLJImagePickerController/PhotoCell.xib; sourceTree = "<group>"; };
+		F61E71D5B96C55B2D04FE4E851ACA3DF /* XLJAssetHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLJAssetHelper.h; path = XLJImagePickerController/XLJAssetHelper.h; sourceTree = "<group>"; };
+		F7F0B392394D32B0E5953331B4731CB4 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		FDCF45CE3BEB047A7286D64D4CCCF256 /* XLJVideoPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLJVideoPickerController.h; path = XLJImagePickerController/XLJVideoPickerController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45D25CAB0EAF5D93F6D2487189ABADE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDE224FA5B325FA2944A416C75C521A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA47C3638D525C0E710E43CCB8BC1850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3C683DC3BF70356C73B06AF45F5109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115EE7AAAFA8FD93FB169388A46ACC07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7F0B392394D32B0E5953331B4731CB4 /* MBProgressHUD.xcconfig */,
+				078546647169AE7446D9884D6D3EE443 /* MBProgressHUD-dummy.m */,
+				AAC08C96286A6710242D74EB3CBCBAE7 /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		2B8FFFFB6A5281F99005225FB4C8CE2A /* XLJImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				C79697E5F8C31208CCDCD3A93A2C2E52 /* XLJImagePickHeader.h */,
+				B071DD31D35A40BE560886C9BD5900E4 /* Pod */,
+				5F451675E27EDD7D811163560CC86329 /* Resources */,
+				ECE46DAFEFBB06BE957305E6B673533A /* Support Files */,
+				779C43E86687ED8ABB804D8FDC3C7C76 /* UIKit */,
+			);
+			name = XLJImagePickerController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94341AC9A59B884BE70B96C53D2A35A5 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		443E55769FBA24311525273F65E3D469 /* Pods-XLJImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9BFECA302A79110A706E93269DF79191 /* Pods-XLJImagePickerDemo-acknowledgements.markdown */,
+				674BF467B00185AAD51158ED97F69B2F /* Pods-XLJImagePickerDemo-acknowledgements.plist */,
+				CC07AE3101AD55C9B08F8F4BE3FB029C /* Pods-XLJImagePickerDemo-dummy.m */,
+				044669A0B7A90DCF00351FE25782EEB4 /* Pods-XLJImagePickerDemo-resources.sh */,
+				A1474493A989C94AC4A31788108A7FAA /* Pods-XLJImagePickerDemo.debug.xcconfig */,
+				1BE44281F5B85F9E83125057D698E97D /* Pods-XLJImagePickerDemo.release.xcconfig */,
+			);
+			name = "Pods-XLJImagePickerDemo";
+			path = "Target Support Files/Pods-XLJImagePickerDemo";
+			sourceTree = "<group>";
+		};
+		4CA48607CAC68B6058AEE33AC3B3AEB4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B8FFFFB6A5281F99005225FB4C8CE2A /* XLJImagePickerController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		58BB376372FED28F5185A29CDBEC7F14 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				443E55769FBA24311525273F65E3D469 /* Pods-XLJImagePickerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F451675E27EDD7D811163560CC86329 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCC624AF8584A5E5D7D5A78B4246B133 /* BrowserCell.xib */,
+				B0532742D5CA6C7F106A32A0C77C4DB7 /* CollectionCell.xib */,
+				F5AE627BC6438DD46A41E2EE60F6BA01 /* PhotoCell.xib */,
+				235F43D18BF66C06C3E95AACCBB9D39D /* Resource.bundle */,
+				2A1E638925B4E725BD466C3300393192 /* VIdeoCell.xib */,
+				9D4068102C2DA332F1C99442408ED2B3 /* XNOAuthorController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		779C43E86687ED8ABB804D8FDC3C7C76 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				03E532116C53847065E5C7CFF2DE1BD5 /* BrowserCell.h */,
+				BABAED41D2E1DC10204D26B3DE4F7E02 /* BrowserCell.m */,
+				24E1C67C7D8ECE7637BF36A3DD618279 /* CollectionCell.h */,
+				1FA1806DE87981BA9189361CF7EC351A /* CollectionCell.m */,
+				B67EBB83F45D35F275EEB0BAFB8DEE07 /* PhotoBrowserController.h */,
+				9FBC2EECE19979814E19C64614D6C088 /* PhotoBrowserController.m */,
+				2497944984DD80979C3FB3722D0A1027 /* PhotoCell.h */,
+				BFDCCCFFEB4D264745CCCD087A0D3E49 /* PhotoCell.m */,
+				5D9ACF4DE532B0684678EEDC8BD73E90 /* PreThumCell.h */,
+				141AA3781E6E7D5163392957C6B40DDD /* PreThumCell.m */,
+				CDE3EEB18FB63A81C6AB2CFD4945D29F /* PreViewCell.h */,
+				371191069F1388A7A7DA35BD9174AB84 /* PreViewCell.m */,
+				F54A41F19792BA2E4BF542860CB1C0CE /* VIdeoCell.h */,
+				1EA186378C3DD47C2F7334F704856EA4 /* VIdeoCell.m */,
+				F61E71D5B96C55B2D04FE4E851ACA3DF /* XLJAssetHelper.h */,
+				D09841A9EC34A9E4238BBB3FE87DE7D0 /* XLJAssetHelper.m */,
+				02CB2893A8EBAB10D7E4AFD3799A70A4 /* XLJImagePickController.h */,
+				78399B25F22320F1C7B27FE22A21967B /* XLJImagePickController.m */,
+				1146C92F7B980EC0D59A1C7520FB4514 /* XLJImagePickGroupController.h */,
+				105678A5915BA9FB1AAB2537B0C3B0AE /* XLJImagePickGroupController.m */,
+				FDCF45CE3BEB047A7286D64D4CCCF256 /* XLJVideoPickerController.h */,
+				245043263A91E4AACF88A3AFD2540B92 /* XLJVideoPickerController.m */,
+				1B4D4302547EE4B86037153262F401D0 /* XLJVideoPreViewController.h */,
+				2AC976B88A99246BDDB1AA52859CB681 /* XLJVideoPreViewController.m */,
+				647944A2B46C4B84ABE5B73A967F7879 /* XNOAuthorController.h */,
+				15862265D5DE0D580809FAA8FA9FBE97 /* XNOAuthorController.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		7E21C1103D52747539B60E4C4DA0A79D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88DD67F3E1CB7C31D8CFF0DBEA8CDF89 /* libMBProgressHUD.a */,
+				F27C57B8317B2B04F19E4C526DF33467 /* libPods-XLJImagePickerDemo.a */,
+				352B92B2D4EBD7C413434250057C3CB0 /* libXLJImagePickerController.a */,
+				E772E3836FC21BFACEE0D936005D19DD /* XibReSource.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94341AC9A59B884BE70B96C53D2A35A5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CC7CBAA80700DF4FC98F1110B1549283 /* MBProgressHUD.h */,
+				CDB69FCA0C39E6D223D660F7B5240F19 /* MBProgressHUD.m */,
+				115EE7AAAFA8FD93FB169388A46ACC07 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		B071DD31D35A40BE560886C9BD5900E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA04959D11FC36CAB9207169F4AACF /* LICENSE */,
+				E6F0E0B5A7FB742FB05960A7172D5118 /* README.md */,
+				3435098776C89B4C85A0B1CE697896DA /* XLJImagePickerController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4CA48607CAC68B6058AEE33AC3B3AEB4 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				3F242479102E24C5847AB040CB8095A8 /* Pods */,
+				7E21C1103D52747539B60E4C4DA0A79D /* Products */,
+				58BB376372FED28F5185A29CDBEC7F14 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE46DAFEFBB06BE957305E6B673533A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D527159C8BE550F93FFBED8A35A956B8 /* ResourceBundle-XibReSource-XLJImagePickerController-Info.plist */,
+				CB71A3B92C53C2A34A1C056D1ECFB88B /* XLJImagePickerController.xcconfig */,
+				ED867C965DA3D646252087A3D43C753E /* XLJImagePickerController-dummy.m */,
+				4C48D5BB1169925C6CE623D35D020EE3 /* XLJImagePickerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "XLJImagePickerDemo/Pods/Target Support Files/XLJImagePickerController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EDBCAE9BC18B7EFC1ED7DED1F64F8FE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC8998A1D9719804F295027F3B3D55B /* BrowserCell.h in Headers */,
+				CBFFBD32BB9DAA0105CE17262ECF1488 /* CollectionCell.h in Headers */,
+				40EEC0416E4CC4CB0080F7E86C7B07A6 /* PhotoBrowserController.h in Headers */,
+				3D4A63ADA07319DBD4878623735E5DB1 /* PhotoCell.h in Headers */,
+				2E0C317D6C282DF19964FFA4248DA853 /* PreThumCell.h in Headers */,
+				50F63459E414464BF5E88B1171B4F456 /* PreViewCell.h in Headers */,
+				AE04EF372F4501F1120021CAF6F6844D /* VIdeoCell.h in Headers */,
+				27B9426E06AC685B894DDD1434A3A667 /* XLJAssetHelper.h in Headers */,
+				6A08C95E5E7D1428D7292A05CB778C84 /* XLJImagePickController.h in Headers */,
+				DA69B54E07EDF360E5D070974E025008 /* XLJImagePickGroupController.h in Headers */,
+				AE2142FAD720B85803AD778CD7D0D357 /* XLJImagePickHeader.h in Headers */,
+				86821BEB582903C9CC802873010D49F6 /* XLJVideoPickerController.h in Headers */,
+				9D5703C8D187A63D6C2192A3913CAD09 /* XLJVideoPreViewController.h in Headers */,
+				010DFDEF7FBB9BAF850964421208543F /* XNOAuthorController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0247D83AC3E9C305F8416FD62BD875F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5321840230BB6C85C88122814CDDA46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20994F712F2B6A540216D3FD2BF612D /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16B6ED833EE7BFE2EE3B67B17358B61C /* Pods-XLJImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB98407014EE91B08DE50E667E9346B /* Build configuration list for PBXNativeTarget "Pods-XLJImagePickerDemo" */;
+			buildPhases = (
+				F0247D83AC3E9C305F8416FD62BD875F /* Headers */,
+				B00DEA6D4704E931ED3F4985AB843755 /* Sources */,
+				45D25CAB0EAF5D93F6D2487189ABADE5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA399A65EA0B1D5A95625490F6FAE258 /* PBXTargetDependency */,
+				E188B857ACEE114CC67A068246AAC1AD /* PBXTargetDependency */,
+			);
+			name = "Pods-XLJImagePickerDemo";
+			productName = "Pods-XLJImagePickerDemo";
+			productReference = F27C57B8317B2B04F19E4C526DF33467 /* libPods-XLJImagePickerDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4C57AC15136E9697588CFACE7EB6EE06 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB0D07912895BC979026B645CEDF00C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				F5321840230BB6C85C88122814CDDA46 /* Headers */,
+				944926C44F9267554CA04926A91116EF /* Sources */,
+				EC3C683DC3BF70356C73B06AF45F5109 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 88DD67F3E1CB7C31D8CFF0DBEA8CDF89 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DDC98E889677399F42C51CAFE5D2502D /* XLJImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6835B3116E987B2ACF38E7E4EA421272 /* Build configuration list for PBXNativeTarget "XLJImagePickerController" */;
+			buildPhases = (
+				EDBCAE9BC18B7EFC1ED7DED1F64F8FE2 /* Headers */,
+				FEE2A60F99FD5C2890C55ED09E7769E5 /* Sources */,
+				EA47C3638D525C0E710E43CCB8BC1850 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C746C29EC5095C76EB933AF92B2E7C /* PBXTargetDependency */,
+				827583580B41DC60BEE50B804A8CBDE8 /* PBXTargetDependency */,
+			);
+			name = XLJImagePickerController;
+			productName = XLJImagePickerController;
+			productReference = 352B92B2D4EBD7C413434250057C3CB0 /* libXLJImagePickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA75A0EA7CA522EA2217F697168D94DF /* XLJImagePickerController-XibReSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE3175B7DE1C7851DBC797FC9775EF7 /* Build configuration list for PBXNativeTarget "XLJImagePickerController-XibReSource" */;
+			buildPhases = (
+				57702257B24FB5610CFFADF2EB54BCEF /* Sources */,
+				ACDE224FA5B325FA2944A416C75C521A /* Frameworks */,
+				52F22786BE1EC1A51A6C438273812C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLJImagePickerController-XibReSource";
+			productName = "XLJImagePickerController-XibReSource";
+			productReference = E772E3836FC21BFACEE0D936005D19DD /* XibReSource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7E21C1103D52747539B60E4C4DA0A79D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C57AC15136E9697588CFACE7EB6EE06 /* MBProgressHUD */,
+				16B6ED833EE7BFE2EE3B67B17358B61C /* Pods-XLJImagePickerDemo */,
+				DDC98E889677399F42C51CAFE5D2502D /* XLJImagePickerController */,
+				EA75A0EA7CA522EA2217F697168D94DF /* XLJImagePickerController-XibReSource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F22786BE1EC1A51A6C438273812C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B07EC04FE288F323353EA24A5B4DC9 /* BrowserCell.xib in Resources */,
+				4F30A8A2337E3C97E5456F0FC91D4C9A /* CollectionCell.xib in Resources */,
+				1821C13117ABA5AD7C7980EA798380D1 /* PhotoCell.xib in Resources */,
+				12926B21D5B8B3C476049C3726213D24 /* VIdeoCell.xib in Resources */,
+				D530257BEF0225C7DFF3F4DD8FA06689 /* XNOAuthorController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57702257B24FB5610CFFADF2EB54BCEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944926C44F9267554CA04926A91116EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1663F7C0E3CC1C8FBE50F24111628752 /* MBProgressHUD-dummy.m in Sources */,
+				74DA2E10F7942FD70359F0591525B30D /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00DEA6D4704E931ED3F4985AB843755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6902794CA8395D32432BA5C7D98113B3 /* Pods-XLJImagePickerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE2A60F99FD5C2890C55ED09E7769E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A62FED7F5285636C462EBF84725E84A /* BrowserCell.m in Sources */,
+				DA9D3E24E96CCCAA9886AB8023386537 /* CollectionCell.m in Sources */,
+				A2F6095C50A40D3AAA9597B07E51FE6B /* PhotoBrowserController.m in Sources */,
+				0CC76CD7261341744F1B75FE45D07AFC /* PhotoCell.m in Sources */,
+				6C2F7128373DDA1E44EF6A6E4E990A42 /* PreThumCell.m in Sources */,
+				17B6EECA9A3BFCF188743777595FFFCA /* PreViewCell.m in Sources */,
+				00DD83794E75ACF2A848594D191A36E1 /* VIdeoCell.m in Sources */,
+				6A0844012063F720303161B59FFF1669 /* XLJAssetHelper.m in Sources */,
+				5FB2FF1355061B11C4788D65574772FE /* XLJImagePickController.m in Sources */,
+				CA40891671ED8105417C62ABEEB48CBC /* XLJImagePickerController-dummy.m in Sources */,
+				3654CBBBA91E3491DA60FFA3DC26F3F7 /* XLJImagePickGroupController.m in Sources */,
+				0572C81E36D9E3D3F56C92BE44724664 /* XLJVideoPickerController.m in Sources */,
+				E994FA439D126DF06BED7F17B242E61E /* XLJVideoPreViewController.m in Sources */,
+				9B4C8252554691FB73CE74F8682181E7 /* XNOAuthorController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30C746C29EC5095C76EB933AF92B2E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 4C57AC15136E9697588CFACE7EB6EE06 /* MBProgressHUD */;
+			targetProxy = 81A475E73D980100648E863BE0E88CD1 /* PBXContainerItemProxy */;
+		};
+		827583580B41DC60BEE50B804A8CBDE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLJImagePickerController-XibReSource";
+			target = EA75A0EA7CA522EA2217F697168D94DF /* XLJImagePickerController-XibReSource */;
+			targetProxy = 04AD8AFFDBA89C8C1B50F499EA5D9EF0 /* PBXContainerItemProxy */;
+		};
+		E188B857ACEE114CC67A068246AAC1AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLJImagePickerController;
+			target = DDC98E889677399F42C51CAFE5D2502D /* XLJImagePickerController */;
+			targetProxy = 01024CB66B3563AB9C8D6F05C62A53FA /* PBXContainerItemProxy */;
+		};
+		EA399A65EA0B1D5A95625490F6FAE258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 4C57AC15136E9697588CFACE7EB6EE06 /* MBProgressHUD */;
+			targetProxy = BF4E03CB4EAE9466BA3B1B65441E15F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07E21BC0C1ECE0AE167B32CE3B12404E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB71A3B92C53C2A34A1C056D1ECFB88B /* XLJImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLJImagePickerController";
+				INFOPLIST_FILE = "Target Support Files/XLJImagePickerController/ResourceBundle-XibReSource-XLJImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XibReSource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		991A404B9EF0DAB8054AFB78894BD1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB71A3B92C53C2A34A1C056D1ECFB88B /* XLJImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XLJImagePickerController/XLJImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XLJImagePickerController;
+				PRODUCT_NAME = XLJImagePickerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A125ED06451AC6537CED51E940505244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F0B392394D32B0E5953331B4731CB4 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4E7CF8D4B31A20554496AEF73F00A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB71A3B92C53C2A34A1C056D1ECFB88B /* XLJImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLJImagePickerController";
+				INFOPLIST_FILE = "Target Support Files/XLJImagePickerController/ResourceBundle-XibReSource-XLJImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XibReSource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B689808042909EA627F1BB8B2608AFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB71A3B92C53C2A34A1C056D1ECFB88B /* XLJImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XLJImagePickerController/XLJImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XLJImagePickerController;
+				PRODUCT_NAME = XLJImagePickerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D08B5BC44D15BBD8B4A85856CF77F2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1474493A989C94AC4A31788108A7FAA /* Pods-XLJImagePickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA717E491C58378E1A2B63B1254947EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F0B392394D32B0E5953331B4731CB4 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F575BA6E33137DE2D7DFEC9C7583ADF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE44281F5B85F9E83125057D698E97D /* Pods-XLJImagePickerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6835B3116E987B2ACF38E7E4EA421272 /* Build configuration list for PBXNativeTarget "XLJImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B689808042909EA627F1BB8B2608AFA1 /* Debug */,
+				991A404B9EF0DAB8054AFB78894BD1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB98407014EE91B08DE50E667E9346B /* Build configuration list for PBXNativeTarget "Pods-XLJImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B5BC44D15BBD8B4A85856CF77F2EC /* Debug */,
+				F575BA6E33137DE2D7DFEC9C7583ADF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE3175B7DE1C7851DBC797FC9775EF7 /* Build configuration list for PBXNativeTarget "XLJImagePickerController-XibReSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E7CF8D4B31A20554496AEF73F00A6C /* Debug */,
+				07E21BC0C1ECE0AE167B32CE3B12404E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB0D07912895BC979026B645CEDF00C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A125ED06451AC6537CED51E940505244 /* Debug */,
+				DA717E491C58378E1A2B63B1254947EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

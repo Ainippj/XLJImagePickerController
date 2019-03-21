@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+target 'XLJImagePickerDemo' do
+#    project 'XLJImagePickerDemo'
+#    use_frameworks!
+  pod 'XLJImagePickerController', :path => '../'
+  
+end

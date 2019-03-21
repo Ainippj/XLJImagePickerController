@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCell" id="gTV-IL-0wX" customClass="PhotoCell">
+            <rect key="frame" x="0.0" y="0.0" width="258" height="190"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="258" height="190"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xID-gM-xN5">
+                        <rect key="frame" x="0.0" y="0.0" width="258" height="190"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2T-Ps-17h">
+                        <rect key="frame" x="228" y="0.0" width="30" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="1cj-cV-lnE"/>
+                            <constraint firstAttribute="height" constant="30" id="aZM-lD-Ghy"/>
+                        </constraints>
+                        <connections>
+                            <action selector="touchSelect:" destination="gTV-IL-0wX" eventType="touchUpInside" id="J3S-I6-da5"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xID-gM-xN5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ICI-Ot-ZwQ"/>
+                <constraint firstItem="xID-gM-xN5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="agc-4i-zzb"/>
+                <constraint firstItem="M2T-Ps-17h" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hBN-7o-yGs"/>
+                <constraint firstAttribute="trailing" secondItem="M2T-Ps-17h" secondAttribute="trailing" id="k66-tF-Gk8"/>
+                <constraint firstAttribute="bottom" secondItem="xID-gM-xN5" secondAttribute="bottom" id="qcs-WA-oXN"/>
+                <constraint firstAttribute="trailing" secondItem="xID-gM-xN5" secondAttribute="trailing" id="uEZ-sc-IqO"/>
+            </constraints>
+            <size key="customSize" width="258" height="190"/>
+            <connections>
+                <outlet property="selectButton" destination="M2T-Ps-17h" id="XFs-oe-I1J"/>
+                <outlet property="thumImageView" destination="xID-gM-xN5" id="neX-UG-efx"/>
+            </connections>
+            <point key="canvasLocation" x="-103" y="8"/>
+        </collectionViewCell>
+    </objects>
+</document>
